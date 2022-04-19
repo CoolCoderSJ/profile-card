@@ -1,0 +1,51 @@
+{
+  "name": "cardzilla-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-feather": "^2.0.8",
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "recoil": "^0.0.10",
+    "remark-parse": "^8.0.3",
+    "remark-react": "^7.0.1",
+    "unified": "^9.1.0"
+  },
+  "scripts": {
+    "prestart": "postcss src/styles/tailwind.css -o src/styles/index.css",
+    "start": "react-scripts start",
+    "prebuild": "cross-env NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/index.css",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "autoprefixer": "^9.8.5",
+    "cross-env": "^7.0.2",
+    "postcss-cli": "^7.1.1",
+    "postcss-selector-parser": "^6.0.2",
+    "tailwindcss": "^1.6.0"
+  }
+}
