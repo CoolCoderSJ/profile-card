@@ -90,7 +90,7 @@ export default {
             "email": "snow@shuchirjain.is-a.dev",
             "phone": "",
             "address": "",
-            "discord": "Snow ⠕#0600"
+            "discord": "Discord: Snow ⠕#0600"
         }
     }
 }

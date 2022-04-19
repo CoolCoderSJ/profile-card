@@ -17,6 +17,7 @@ import {
   Codesandbox,
   Youtube,
   Twitch,
+  Image
 } from "react-feather";
 
 import {
@@ -212,10 +213,10 @@ const ProfileStack = memo(() => {
             >
               <Button
                 variantColor="gray"
-                className="w-full justify-between mb-3s"
+                className="w-full justify-between mb-3"
               >
                 <div className="flex items-center">
-                  <Mail size={24} className="mr-2" />
+                  <Image size={24} className="mr-2" />
                   <span>Photography</span>
                 </div>
                 <ChevronRight size={24} />
