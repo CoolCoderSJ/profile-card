@@ -28,7 +28,7 @@ export default {
                 "link": "https://github.com/CoolCoderSJ"
             }, {
                 "type": "twitter",
-                "link": "TheRealSnowSJ"
+                "link": "https://twitter.com/TheRealSnowSJ"
             }]
         },
         "github": {
