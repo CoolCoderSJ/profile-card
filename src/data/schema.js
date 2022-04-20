@@ -67,6 +67,15 @@ export default {
                     "fork": "3"
                 },
                 {
+                    "name": "Replit Oauth",
+                    "description": "Authenticate your users and do so much more with replit oauth.",
+                    "htmlUrl": "https://github.com/CoolCoderSJ/replit-oauth",
+                    "language": "Python",
+                    "languageColor": "#3572A5",
+                    "star": "1",
+                    "fork": "0"
+                },
+                {
                     "name": "SearchDeck",
                     "description": "Search results from 4 different search engines at once, and have the results automatically sorted by relevance.",
                     "htmlUrl": "https://github.com/CoolCoderSJ/SearchDeck",
